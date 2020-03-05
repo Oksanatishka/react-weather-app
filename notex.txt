@@ -1,0 +1,7 @@
+> npx create-react-app react-weather-app
+> npm i axios --save-dev    // all other packages are included in 'react-scripts' package.
+
+Move code from index.html (from js project) to react's /src/App.js.
+Move code from css file to /src/App.css, copy /assets folder to /src folder.
+Create /src/getWeather.js, insert code from index.js, add export to each f-n, comment addEventListeners -> you'll need to change them.
+Copy utils.js, geoLocation.js.
